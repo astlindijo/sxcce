@@ -1,36 +1,48 @@
-# Automation Website for St. Xavier’s Catholic College of Engineering
+# SXCCE Automation - Student Portal
 
-I developed an automation website for **St. Xavier’s Catholic College of Engineering** that allows students to easily access their academic information.
+A modern, secure, and SEO-optimized Next.js student portal for SXCCE. Access student details, attendance, fees, exam marks, and more.
 
----
+## Features
 
-## 🔑 Key Features
+- ✅ **Student Portal**: Login with phone number to access student information
+- ✅ **Multiple Services**: Access student details, attendance, fees, exam marks, and disciplinary records
+- ✅ **Security**: Comprehensive security headers and best practices
+- ✅ **SEO Optimized**: Meta tags, sitemap, robots.txt for Google indexing
+- ✅ **Modern UI**: Beautiful, responsive design with smooth animations
+- ✅ **TypeScript**: Full type safety
+- ✅ **Performance**: Optimized for speed and Core Web Vitals
 
-### **📱 Phone Number Login**
-- Students can log in using their **10-digit mobile number**.
-- No password is required, making access simple and fast.
+## Portal Features
 
-### **🗂️ Local Authentication Storage**
-- The phone number is stored **only in the user’s browser** (Local Storage).
-- On logout, the stored number is **immediately erased** for privacy.
+- **Student Details**: View complete student information
+- **Absent Details**: Check attendance records
+- **Disciplinary Details**: View disciplinary records
+- **Fee Details**: Access fee information
+- **Internal Exam Marks**: View internal exam results
+- **End-Sem Exam Results**: Check end-semester exam results
 
-### **🌐 100% Static Frontend (HTML-based)**
-- The entire website frontend is built using **pure HTML**.
-- Lightweight and fast-loading.
+## Usage
 
-### **🔒 Secure Data Access**
-- Even though the website is static, all student data is securely fetched from the **college database server**.
-- The **phone number acts as the key** to access academic details and marks.
+1. Enter your 10-digit mobile number on the login page
+2. Click "Login" to access the student portal
+3. Select any service from the menu
+4. Use the back button to return to the menu
+5. Click "Log Out" to logout
 
-### **📡 Direct Data Fetching**
-- The browser sends the phone number (key) to the college server.
-- The server returns the student’s data, which is displayed instantly in the browser.
-- Data transfer is secure and always specific to the authenticated student.
+## Security Features
 
-### **🔁 End-to-End Flow**
-- The process begins with the user and ends in the user’s browser.
-- No data is stored permanently on the website or by the developer.
-- Everything is handled securely between the **college server** and the **student’s device**.
+- Strict Transport Security (HSTS)
+- XSS Protection
+- Content Security Policy (configured for SXCCE iframe)
+- Frame Options
+- Content Type Options
+- Referrer Policy
+- Permissions Policy
 
----
+## Created By
 
+**Astlin Dijo** - [@astlin_dijo](https://www.google.com/search?q=Astlin+Dijo)
+
+## License
+
+© 2026 Astlin Dijo. All rights reserved.
